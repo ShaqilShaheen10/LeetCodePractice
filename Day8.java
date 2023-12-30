@@ -111,3 +111,32 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Redistribute Characters to Make All Strings Equal
+
+class Solution {
+    public boolean makeEqual(String[] words) {
+      if(words.length==0){
+          return true;
+      }
+      int total=0;
+      for(String s:words){
+          total+=s.length();
+      }
+      if(total%words.length!=0){
+          return false;
+      }
+      int[] myMap=new int[26];
+      for(String s:words){
+          for(char c:s.toCharArray()){
+              myMap[c-'a']++;
+          }
+      }
+      for(int i:myMap){
+          if(i%words.length!=0){
+              return false;
+          }
+      }
+      return true;
+    }
+}    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
