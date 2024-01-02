@@ -176,3 +176,22 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9. Convert an Array into 2D Array With Conditions
+
+import java.util.*;
+
+class Solution {
+    public List<List<Integer>> findMatrix(int[] nums) {
+        int[] f=new int[nums.length+1];
+        List<List<Integer>> a=new ArrayList<>();
+        for(int c:nums){
+            if(f[c]>=a.size()){
+                a.add(new ArrayList<>());
+            }
+            a.get(f[c]).add(c);
+            f[c]++;
+        }
+        return a;
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
