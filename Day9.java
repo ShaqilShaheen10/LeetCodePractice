@@ -58,6 +58,42 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Leaf-Similar Trees
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+        List<Integer> Leaf1=new ArrayList<>();
+        List<Integer> Leaf2=new ArrayList<>();
+        collectLeaf(root1,Leaf1);
+        collectLeaf(root2,Leaf2);
+        return Leaf1.equals(Leaf2);
+    }
+    private void collectLeaf(TreeNode root,List<Integer> Leaf){
+        if(root==null){
+            return;
+        }
+        if(root.left==null && root.right==null){
+            Leaf.add(root.val);
+        }
+        collectLeaf(root.left,Leaf);
+        collectLeaf(root.right,Leaf);
+    }
+}
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
