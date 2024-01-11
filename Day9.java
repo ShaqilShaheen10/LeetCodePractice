@@ -134,7 +134,7 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5 Longest Substring Without Repeating Characters
+5. Longest Substring Without Repeating Characters
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
