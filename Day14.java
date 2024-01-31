@@ -64,5 +64,36 @@ class Solution {
     }
 }
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5.
+5. Sum of Left Leaves
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    static int result;
+    public int sumOfLeftLeaves(TreeNode root) {
+      result=0;
+      task(root.left,true);
+      task(root.right,false);
+      return result;
+    }
+    static void task(TreeNode root,boolean f){
+        if(root==null)return;
+        if(f && root.left==null && root.right==null)result+=root.val;
+        task(root.left,true);
+        task(root.right,false);
+    }
+}
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
