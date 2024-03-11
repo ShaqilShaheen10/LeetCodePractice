@@ -5,7 +5,8 @@ class Solution {
         if(a.equals(b)) return -1;
         if(a.length()>b.length()){
             return a.length();
-        }else{
+        }
+        else{
             return b.length();
         }
     }
