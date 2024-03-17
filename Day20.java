@@ -154,7 +154,7 @@ class Solution {
         Arrays.sort(tokens);
         int s=0;
         int l=0;
-        int m=0,r=tokens.length-1;
+        int m=0, r=tokens.length-1;
         while(l<=r){
             if(power>=tokens[l]){
                 power-=tokens[l];
