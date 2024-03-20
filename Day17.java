@@ -1,4 +1,4 @@
-1.Divide Two Integers
+1. Divide Two Integers
 
 class Solution {
     public int divide(int dividend, int divisor) {
