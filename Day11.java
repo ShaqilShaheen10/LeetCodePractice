@@ -45,7 +45,6 @@ class Solution {
 4.  Invert Binary Tree
 
 /**
- * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
  *     TreeNode left;
