@@ -122,7 +122,7 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-9. Longest Paalindrome
+9. Longest Palindrome
 
     class Solution {
     public int longestPalindrome(String s) {
