@@ -147,5 +147,16 @@ public int tribonacci(int n) {
         return a;
     }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-10.
+10. Reverse Prefix of Word
+
+    class Solution {
+    public String reversePrefix(String word, char ch) {
+        int f=word.indexOf(ch);
+        if(f==-1){
+            return word;
+        }
+        StringBuilder p=new StringBuilder(word.substring(0,f+1));
+        return p.reverse().toString()+word.substring(f+1);
+    }
+}
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
