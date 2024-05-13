@@ -29,7 +29,7 @@ public class Solution{
         r.add(1);
         long p=1;
         for(int k=1;k<=R;k++){
-            long n=p*(R-k+1)/k;
+            long n=p*(R-k+1)/k; 
             r.add((int)n);
             p=n;
         }
