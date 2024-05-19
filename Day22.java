@@ -6,7 +6,7 @@ class Solution {
      int[] count=new int[nums.length+1];
      for(int freq:nums) count[freq]++; 
      for(int i=1;i<=nums.length;i++){
-        if(count[i]==2){
+        if(count[i]==2){ 
             ans.add(i);
         }
      }
