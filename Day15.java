@@ -8,7 +8,6 @@
  *               otherwise return 0
  * int guess(int num);
  */
-
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
         if(n==1)return 1;
