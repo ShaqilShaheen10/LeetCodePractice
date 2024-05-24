@@ -9,7 +9,7 @@ class Solution {
                 for(int j=0;j<n/i;j++){
                     p.append(s.substring(0,i));
                 }
-                if(s.equals(p.toString())){
+                if(s.equals(p.toString())){ 
                     return true;
                 }
             }
