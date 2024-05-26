@@ -6,7 +6,7 @@ class Solution {
         if(a.length()>b.length()){
             return a.length();
         }
-        else{
+        else{ 
             return b.length();
         }
     }
