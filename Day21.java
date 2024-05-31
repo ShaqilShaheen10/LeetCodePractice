@@ -38,7 +38,7 @@ class Solution {
             if(f!=null){
                 f=f.next;
                 s=s.next;
-            }
+            } 
         }
         return s;
     }
