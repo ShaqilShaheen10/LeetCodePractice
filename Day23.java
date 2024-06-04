@@ -7,7 +7,7 @@ class Solution {
         int i=0,j=people.length-1;
         while(i<=j){
             if((people[j]+people[i])<=limit){
-                i++;
+                i++; 
             }
             j--;
             boats++;
