@@ -97,7 +97,7 @@ class Solution {
         int count=0;
         int carry=0;
         for(int i=s.length()-1;i>=1;i--){
-            int num=s.charAt(i)-'0';
+            int num=s.charAt(i)-'0'; 
             if(num==0 && carry==0){
                 count++;
             }else if(num==1 && carry==1){
