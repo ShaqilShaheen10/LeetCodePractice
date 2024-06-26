@@ -64,7 +64,7 @@ class Solution {
 4. Perfect Squares
 
 class Solution {
-    public int numSquares(int n) {
+    public int numSquares(int n) { 
         int sqrt=(int) Math.sqrt(n);
         if(sqrt*sqrt==n) return 1;
         while(n%4==0) n=n/4;
