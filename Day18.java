@@ -63,7 +63,7 @@ class Solution {
                 pi+=2;
             }
             else{
-                ans[ni]=a[i];
+                ans[ni]=a[i]; 
                 ni+=2;
             }
         }
