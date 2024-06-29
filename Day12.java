@@ -13,7 +13,7 @@ class Solution {
                 dup=i;
             }
             if(v[i]==0){
-                mis=i;
+                mis=i; 
             }
         }
         return new int[]{dup,mis};
