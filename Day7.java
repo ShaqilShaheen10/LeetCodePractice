@@ -41,7 +41,7 @@ class Solution {
        while(n!=1){ 
            int c=n;
            int s=0;
-           while(c>0){
+           while(c>0){ 
                s+=(c%10)*(c%10);
                c/=10;
            }
