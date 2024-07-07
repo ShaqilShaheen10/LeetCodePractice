@@ -42,13 +42,13 @@ class Solution {
         for(int i=n-1;i>=n-k;--i){
             happiness[i]=Math.max(happiness[i]-j++,0);
             r+=happiness[i];
-        }
+        } 
         return r;
     }
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Delete Leaves with a Given Value
-
+ 
     /**
  * Definition for a binary tree node.
  * public class TreeNode {
