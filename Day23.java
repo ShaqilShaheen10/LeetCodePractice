@@ -81,7 +81,7 @@ class Solution {
     public int specialArray(int[] nums) {
         Arrays.sort(nums);
         int n=nums.length;
-        if(nums[0]>=n) return n;
+        if(nums[0]>=n) return n; 
         for(int i=0;i<=n;i++){
             if(nums[n-1]>i&&(n-i-1<i||nums[n-i-1]<i)){
                 return i;
