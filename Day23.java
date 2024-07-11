@@ -86,7 +86,7 @@ class Solution {
             if(nums[n-1]>i&&(n-i-1<i||nums[n-i-1]<i)){
                 return i;
             }
-        }
+        } 
         return -1;
     }
 }
