@@ -62,7 +62,7 @@ class Solution {
  *         this.left = left;
  *         this.right = right;
  *     } 
- * }
+ * } 
  */
 class Solution {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
