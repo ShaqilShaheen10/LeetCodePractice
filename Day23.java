@@ -8,7 +8,7 @@ class Solution {
         while(i<=j){
             if((people[j]+people[i])<=limit){
                 i++; 
-            }
+            } 
             j--;
             boats++;
         }
