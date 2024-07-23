@@ -80,7 +80,7 @@ class Solution {
         for(int num:nums){
             sum+=num;
         }
-        int n=nums.length;
+        int n=nums.length; 
         for(int i=n-1;i>=2;i--){
             sum-=nums[i];
             if(sum>nums[i]){
