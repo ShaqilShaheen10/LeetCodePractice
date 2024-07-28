@@ -34,7 +34,7 @@ class Solution {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. Pseudo-Palindromic Path in a Binary Tree
+3. Pseudo-Palindromic Path in a Binary Tree 
 
 public class TreeNode {
       int val;
