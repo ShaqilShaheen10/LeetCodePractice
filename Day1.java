@@ -63,7 +63,7 @@ class Solution {
     public int maxProfit(int[] prices) {
         int MaxP=0;
         int minS=prices[0];
-        for(int i=0;i<prices.length;i++){
+        for(int i=0;i<prices.length;i++){ 
             minS=Math.min(minS,prices[i]);
             int Profit=prices[i]-minS;
             MaxP=Math.max(MaxP,Profit);
