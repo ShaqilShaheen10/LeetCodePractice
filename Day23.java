@@ -9,7 +9,7 @@ class Solution {
             if((people[j]+people[i])<=limit){
                 i++; 
             } 
-            j--;
+            j--; 
             boats++;
         }
         return boats;
