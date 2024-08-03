@@ -12,7 +12,7 @@ class Solution {
        if(j>=0)
         carry+=b.charAt(j--)-'0';
      s.append(carry%2);
-     carry/=2;
+     carry/=2; 
      }
    return s.reverse().toString();
     }
