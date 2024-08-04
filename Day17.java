@@ -26,7 +26,7 @@ class Solution{
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Construct the Rectangle
-
+ 
 class Solution {
     public int[] constructRectangle(int area) {
         int i=(int)Math.sqrt(area);
