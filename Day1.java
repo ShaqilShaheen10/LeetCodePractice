@@ -25,7 +25,7 @@ class Solution {
         v=(v*10)+r;
         x=x/10; 
     }
-    if(v==a)
+    if(v==a) 
         return true;
     else
         return false;
