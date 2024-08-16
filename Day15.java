@@ -17,7 +17,7 @@ public class Solution extends GuessGame {
         while(f<l){
             m=f+(l-f)/2;
             int t=guess(m);
-            if(t==0) return m;
+            if(t==0) return m; 
             else if(t==-1) l=m;
             else f=m;
         }
