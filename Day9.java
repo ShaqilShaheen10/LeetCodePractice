@@ -42,7 +42,7 @@ public class TreeNode {
           this.left = left;
           this.right = right;
       }
-  }
+  } 
  
 class Solution {
     public int rangeSumBST(TreeNode root, int low, int high) {
