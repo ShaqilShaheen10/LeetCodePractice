@@ -20,7 +20,7 @@ class Solution {
               ans.add("FizzBuzz");
           }
           else if(i%3==0){
-              ans.add("Fizz");
+              ans.add("Fizz"); 
           }
           else if(i%5==0){
               ans.add("Buzz");
