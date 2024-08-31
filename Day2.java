@@ -33,7 +33,7 @@ class Solution {
                 l=m; 
             }
             else{
-                r=m-1;
+                r=m-1; 
             }
         } 
         return (int)l;
