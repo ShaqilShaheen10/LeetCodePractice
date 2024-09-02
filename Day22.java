@@ -37,7 +37,7 @@ class Solution {
         int n=nums.length;
         while(r<n){
             p*=nums[r];
-            while(p>=k) p/=nums[l++];
+            while(p>=k) p/=nums[l++]; 
             c+=1+(r-l);
             r++;
         }
