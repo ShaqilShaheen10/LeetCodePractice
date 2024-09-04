@@ -1,6 +1,5 @@
 1. Intersection of Two Linked Lists
 
-
 public class ListNode {
       int val;
       ListNode next;
