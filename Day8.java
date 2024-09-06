@@ -29,7 +29,7 @@ class Solution {
                 if(neededTime[i]<neededTime[i+1]){
                     min+=neededTime[i];
                     neededTime[i]=0;
-                }
+                } 
                 else{
                     min+=neededTime[i+1];
                     neededTime[i+1]=neededTime[i];
