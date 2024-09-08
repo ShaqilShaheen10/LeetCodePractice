@@ -53,7 +53,7 @@ class Solution {
             l++;
             continue;}
         if(!Character.isLetterOrDigit(end)){
-            r--;
+            r--; 
             continue;}
         if(Character.toLowerCase(start)!=Character.toLowerCase(end)){
             return false;
