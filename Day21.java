@@ -10,7 +10,7 @@ class Solution {
                     p.append(s.substring(0,i));
                 }
                 if(s.equals(p.toString())){ 
-                    return true;
+                    return true; 
                 }
             }
         }
