@@ -9,7 +9,7 @@ public class Solution {
             if(s.charAt(i)==t.charAt(j)){
                 i++;
             }
-            j++;
+            j++; 
         }
         return i==m;
     }
