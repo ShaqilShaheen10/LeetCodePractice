@@ -27,7 +27,7 @@ public class Solution{
     public List<Integer> getRow(int R){
         List<Integer> r=new ArrayList<>();
         r.add(1);
-        long p=1;
+        long p=1; 
         for(int k=1;k<=R;k++){
             long n=p*(R-k+1)/k; 
             r.add((int)n);
