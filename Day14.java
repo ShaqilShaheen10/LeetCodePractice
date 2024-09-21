@@ -27,7 +27,7 @@ class Solution {
                 t=t&(t-1);
                 c++;
             }
-            arr[i]=c;
+            arr[i]=c; 
         }
         return arr;
     }
