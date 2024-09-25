@@ -3,7 +3,7 @@
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int n=nums.length;
-        int[] v=new int[n+1];
+        int[] v=new int[n+1]; 
         int dup=0,mis=0;
         for(int i=0;i<n;i++){
             v[nums[i]]++;
