@@ -19,7 +19,7 @@ class Solution{
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Arrange Coins
 
-class Solution{
+class Solution{ 
     public int arrangeCoins(int n){
         return (int)((Math.sqrt(1+8L *(long)n)-1)/2); 
     }
