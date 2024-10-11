@@ -26,7 +26,7 @@ class Solution {
             if(nums[m]==target){ 
                 f=m;
                 L=m;
-                while(f>0 && nums[f-1]==target){
+                while(f>0 && nums[f-1]==target){ 
                     f--; 
                 }
                 while(L<nums.length-1 && nums[L+1]==target){
