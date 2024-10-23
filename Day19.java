@@ -32,7 +32,7 @@ Class Solution {
 3. Base 7
 
 class Solution {
-    public String convertToBase7(int num) {
+    public String convertToBase7(int num) { 
         int base=1;
         int ans=0;
         while(num!=0){
