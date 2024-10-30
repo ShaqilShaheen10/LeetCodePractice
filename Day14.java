@@ -18,7 +18,7 @@ class Solution {
 2. Counting Bits
  
 class Solution {
-    public int[] countBits(int n) {
+    public int[] countBits(int n) { 
         int[] arr=new int[n+1];
         arr[0]=0;
         for(int i=1;i<=n;i++){
