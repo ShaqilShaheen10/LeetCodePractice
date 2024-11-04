@@ -10,7 +10,7 @@ class Solution {
                 i++; 
             } 
             j--; 
-            boats++;
+            boats++; 
         }
         return boats;
     }
