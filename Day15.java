@@ -10,7 +10,7 @@
  */ 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-        if(n==1)return 1;
+        if(n==1)return 1; 
         if(guess(n)==0)return n;
         int f=1,l=n;
         int m;
