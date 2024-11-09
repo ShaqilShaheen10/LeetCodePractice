@@ -21,7 +21,7 @@ class Solution {
     private void helper(TreeNode node,List<Integer> ans){
         if(node==null) return;
         helper(node.left,ans);
-        helper(node.right,ans);
+        helper(node.right,ans); 
         ans.add(node.val);
     }
 } 
