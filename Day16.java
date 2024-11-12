@@ -47,7 +47,7 @@ class Solution {
 3. Binary Watch
 
 class Solution {
-    public List<String> readBinaryWatch(int turnedOn) {
+    public List<String> readBinaryWatch(int turnedOn) { 
         ArrayList<String> r=new ArrayList(); 
         for(int h=0;h<12;h++){
             for(int m=0;m<60;m++){
