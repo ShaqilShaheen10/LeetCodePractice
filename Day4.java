@@ -6,7 +6,7 @@ class Solution {
         List<Integer> ar=new ArrayList<>();
         ar.add(1);
         for(int c=1;c<r;c++){
-            a=a*(r-c);
+            a=a*(r-c); 
             a=a/c;
             ar.add((int)a);
         }
