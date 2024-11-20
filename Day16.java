@@ -24,7 +24,7 @@ class Solution {
         while(l<=r){  
             int m=l+(r-l)/2;
             if(nums[m]==target){ 
-                f=m;
+                f=m; 
                 L=m;
                 while(f>0 && nums[f-1]==target){ 
                     f--; 
