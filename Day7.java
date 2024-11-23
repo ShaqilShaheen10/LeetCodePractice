@@ -1,4 +1,5 @@
 1. Find the Index of the First Occurance in a String
+  
   class Solution {
     public int strStr(String haystack, String needle) {
         int haylength=haystack.length();
