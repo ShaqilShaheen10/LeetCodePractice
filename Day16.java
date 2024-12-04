@@ -29,7 +29,7 @@ class Solution {
                 while(f>0 && nums[f-1]==target){ 
                     f--; 
                 }
-                while(L<nums.length-1 && nums[L+1]==target){
+                while(L<nums.length-1 && nums[L+1]==target){ 
                     L++;
                 }
                 break;
