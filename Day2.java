@@ -21,7 +21,7 @@ class Solution {
 2.Sqrt(x)
 
 class Solution {
-    public int mySqrt(int x) {
+    public int mySqrt(int x) { 
         long l=0,r=(x/2)+1;
         while(l<r){
             long m=l+(r-l)/2+1;
