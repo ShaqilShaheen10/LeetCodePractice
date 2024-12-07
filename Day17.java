@@ -10,7 +10,7 @@ class Solution {
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Integer to Hexadecimal
-
+ 
 class Solution{
     public String toHex(int num){
         rreturn Integer.toHexString(num);
