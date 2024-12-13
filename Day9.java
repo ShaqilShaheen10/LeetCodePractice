@@ -15,7 +15,7 @@ class Solution {
                  s.add(Arrays.asList(nums[i],nums[j],nums[k]));
                  j++;
                  k--;   
-                }
+                } 
                 else if(sum<target){
                     j++;
                 }
