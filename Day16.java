@@ -81,7 +81,7 @@ class Solution {
 5. Word Pattern
 
 class Solution {
-    public boolean wordPattern(String pattern, String s) {
+    public boolean wordPattern(String pattern, String s) { 
        String[] word=s.split(" ");
        if(word.length!=pattern.length()) return false;
        HashMap<Character,String> map=new HashMap();
