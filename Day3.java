@@ -41,7 +41,7 @@ public class Solution {
             r<<=1; 
             r|=(n&1); 
             n>>=1;
-        }
+        } 
         return r;
     } 
 }
