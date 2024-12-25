@@ -8,7 +8,7 @@ public class Solution {
         while(i<m && j<n){
             if(s.charAt(i)==t.charAt(j)){
                 i++;
-            }
+            } 
             j++; 
         }
         return i==m;
