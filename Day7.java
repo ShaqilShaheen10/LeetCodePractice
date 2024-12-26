@@ -37,7 +37,7 @@ class Solution {
 3. Happy Number
 
 class Solution {
-    public boolean isHappy(int n) {
+    public boolean isHappy(int n) { 
        Set<Integer> set=new HashSet<>();
        while(n!=1){ 
            int c=n;
