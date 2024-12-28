@@ -8,7 +8,7 @@ class Solution {
                     int a[]={i,j};
                     return a;
                 }
-            }
+            } 
         }
         return null;
     }
