@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2.Find the Winner of the Circular Game
 
-  public int findTheWinner(int n, int k) {
+  public int findTheWinner(int n, int k) { 
      int winner=0;
      for(int i=1;i<=n;i++){ 
         winner=(winner+k)%i;
