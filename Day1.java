@@ -18,7 +18,7 @@ class Solution {
 
 class Solution {
     public boolean isPalindrome(int x) {
-    int a=x;
+    int a=x; 
     int v=0;  
     while(x>0){
         int r=x%10;
