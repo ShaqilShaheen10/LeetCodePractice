@@ -96,7 +96,7 @@ class Solution {
  *         this.left = left;
  *         this.right = right;
  *     }
- * }
+ * } 
  */
 class Solution {
     public int minDepth(TreeNode root) {
