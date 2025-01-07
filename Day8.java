@@ -8,7 +8,7 @@ class Solution {
                 if (board[r][c] == '.') continue;
                 if (!seen.add(board[r][c] + "in row" + r) ||
                     !seen.add(board[r][c] + "in col" + c) || 
-                    !seen.add(board[r][c] + "in block" + r/3 + c/3)) {
+                    !seen.add(board[r][c] + "in block" + r/3 + c/3)) { 
                     return false;
                 }
             }
