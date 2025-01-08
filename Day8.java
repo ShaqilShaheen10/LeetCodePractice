@@ -47,7 +47,7 @@ class Solution {
         int n=s.length();
         StringBuffer[] arr=new StringBuffer[numRows];
         for(int i=0;i<numRows;i++) arr[i]=new StringBuffer();
-        int i=0;
+        int i=0; 
         while(i<n){
             for(int ind=0;ind<numRows && i<n; ind++){
                 arr[ind].append(s.charAt(i++));
