@@ -2,7 +2,7 @@ Add Binary
 
 class Solution {
     public String addBinary(String a, String b) {
-   StringBuilder s=new StringBuilder();
+   StringBuilder s=new StringBuilder(); 
    int carry=0;
    int i=a.length()-1; 
    int j=b.length()-1;
