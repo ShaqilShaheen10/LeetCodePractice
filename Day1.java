@@ -27,7 +27,7 @@ class Solution {
     }
     if(v==a) 
         return true;
-    else 
+    else  
         return false;
     }
     }
