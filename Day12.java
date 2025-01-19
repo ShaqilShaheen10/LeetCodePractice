@@ -10,7 +10,7 @@ class Solution {
         }
         for(int i=1;i<v.length;i++){
             if(v[i]==2){
-                dup=i;
+                dup=i; 
             }
             if(v[i]==0){
                 mis=i; 
