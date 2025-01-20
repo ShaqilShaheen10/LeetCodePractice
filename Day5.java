@@ -64,7 +64,7 @@ class Solution {
           this.right = right;
       }
   }
- 
+  
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
       List<Integer> res=new ArrayList<>();
