@@ -5,7 +5,7 @@
         for(int i=0;i<s.length();i+=2){
             if(s.charAt(i)!=s.charAt(i+1)){
                 c++;
-            }
+            } 
         }
         return c;
     }
