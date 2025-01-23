@@ -6,7 +6,7 @@ class Solution {
    int carry=0;
    int i=a.length()-1; 
    int j=b.length()-1;
-   while(i>=0||j>=0||carry==1){
+   while(i>=0||j>=0||carry==1){ 
        if(i>=0) 
         carry+=a.charAt(i--)-'0'; 
        if(j>=0)
