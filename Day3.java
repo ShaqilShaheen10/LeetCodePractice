@@ -32,7 +32,7 @@ class Solution {
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3.Reverse Bits
-
+ 
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
