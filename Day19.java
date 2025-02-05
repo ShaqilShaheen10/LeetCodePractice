@@ -6,7 +6,7 @@ class Solution {
         int[] map=new int[m+1];
         List<Integer> ans=new ArrayList<>();
         for(int e:nums){
-            map[e]++;
+            map[e]++; 
         }
         for(int i=1;i<m+1;i++){
             if(map[i]==0){
