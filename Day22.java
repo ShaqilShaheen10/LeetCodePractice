@@ -63,7 +63,7 @@ class Solution {
 
 class Solution {
     public boolean checkValidString(String s) {
-        int min=0,max=0;
+        int min=0,max=0; 
         for(char c:s.toCharArray()){
             if(c=='('){
                 min++;
