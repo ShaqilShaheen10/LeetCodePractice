@@ -25,7 +25,7 @@ class Solution {
         char[] str=colors.toCharArray();
         int min=0;
         for(int i=0;i<str.length-1;i++){
-            if(str[i]==str[i+1]){
+            if(str[i]==str[i+1]){ 
                 if(neededTime[i]<neededTime[i+1]){ 
                     min+=neededTime[i];
                     neededTime[i]=0;
