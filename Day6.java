@@ -48,7 +48,7 @@ class Solution {
       }
       private void helper(TreeNode node,List<Integer> ans){
           if(node==null) return; 
-          ans.add(node.val);
+          ans.add(node.val); 
           helper(node.left,ans);
           helper(node.right,ans);
       }
