@@ -9,7 +9,7 @@ class Solution {
             }
             else if(s>0){ 
                 int t=nums[i];
-                nums[i]=0;
+                nums[i]=0; 
                 nums[i-s]=t;
             }
         }
