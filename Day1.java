@@ -23,7 +23,7 @@ class Solution {
     while(x>0){
         int r=x%10;
         v=(v*10)+r;
-        x=x/10; 
+        x=x/10;  
     }
     if(v==a) 
         return true;
