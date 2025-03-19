@@ -56,7 +56,7 @@ class Solution {
         int a=Integer.MAX_VALUE;
         for(char c='a';c<='z';c++){
             int i=s.indexOf(c);
-            if(i!=-1 && i==s.lastIndexOf(c)){
+            if(i!=-1 && i==s.lastIndexOf(c)){ 
                 a=Math.min(a,i);
             }
         }
