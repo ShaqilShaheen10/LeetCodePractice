@@ -72,7 +72,7 @@ class Solution {
         for(char x:s.toCharArray()){
             count[x-'a']++;
         }
-        for(char x:t.toCharArray()){
+        for(char x:t.toCharArray()){ 
             count[x-'a']--;
         }
         for(int val:count){
