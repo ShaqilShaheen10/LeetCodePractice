@@ -67,7 +67,7 @@ class Solution {
 class Solution {
     public boolean isPowerOfFour(int n) {
         if(n==1){
-            return true;
+            return true; 
         } 
         if(n==0 || n%4!=0){
             return false;
