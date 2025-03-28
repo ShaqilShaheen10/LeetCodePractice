@@ -75,7 +75,7 @@ class Solution {
         if(root!=null){
             helper(root.left,res);
             res.add(root.val);
-            helper(root.right,res);
+            helper(root.right,res); 
         }
     }
 }
