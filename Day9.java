@@ -88,7 +88,7 @@ class Solution {
         if(root.left==null && root.right==null){
             Leaf.add(root.val);
         }
-        collectLeaf(root.left,Leaf);
+        collectLeaf(root.left,Leaf); 
         collectLeaf(root.right,Leaf);
     }
 }
