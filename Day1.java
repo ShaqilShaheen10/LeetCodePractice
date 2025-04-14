@@ -51,7 +51,7 @@ class Solution {
         }
         else{
             result+=map.get(s.charAt(i));
-        }
+        } 
     }
     return result;
     }
