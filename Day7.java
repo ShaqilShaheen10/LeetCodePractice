@@ -38,7 +38,7 @@ class Solution {
 
 class Solution {
     public boolean isHappy(int n) { 
-       Set<Integer> set=new HashSet<>();
+       Set<Integer> set=new HashSet<>(); 
        while(n!=1){ 
            int c=n;
            int s=0;
