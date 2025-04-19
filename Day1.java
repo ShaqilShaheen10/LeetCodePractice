@@ -26,7 +26,7 @@ class Solution {
         x=x/10;  
     }
     if(v==a) 
-        return true;
+        return true; 
     else  
         return false;
     }
