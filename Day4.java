@@ -10,7 +10,7 @@ class Solution {
             a=a/c;
             ar.add((int)a);
         }
-        return ar;
+        return ar; 
     }
     public List<List<Integer>> generate(int n){
         List<List<Integer>> a=new ArrayList<>();
