@@ -11,7 +11,7 @@ class Solution {
                 int t=nums[i];
                 nums[i]=0; 
                 nums[i-s]=t;
-            }
+            } 
         }
     } 
 }
