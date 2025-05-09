@@ -38,7 +38,7 @@ class Solution {
                 f=f.next;
                 s=s.next;
             } 
-        }
+        } 
         return s;
     }
 }
