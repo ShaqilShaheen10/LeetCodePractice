@@ -28,7 +28,7 @@ class Solution {
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Binary Tree PreOrder Traversal
 
-  public class TreeNode {
+  public class TreeNode { 
       int val; 
       TreeNode left; 
       TreeNode right;
