@@ -53,7 +53,7 @@ class Solution {
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)=='(') c++;
             m=Math.max(c,m);
-            if(s.charAt(i)==')') c--;
+            if(s.charAt(i)==')') c--; 
         }
         return m; 
     }
