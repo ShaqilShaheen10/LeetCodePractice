@@ -22,7 +22,7 @@ class Solution {
                 m=Math.max(m,i-j-1);
                 j=i;
             }
-        }
+        } 
         return Math.max(m,i-j-1);
     }
 }
