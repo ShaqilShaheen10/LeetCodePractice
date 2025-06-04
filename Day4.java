@@ -9,7 +9,7 @@ class Solution {
             a=a*(r-c);  
             a=a/c; 
             ar.add((int)a);
-        }
+        } 
         return ar; 
     }
     public List<List<Integer>> generate(int n){
