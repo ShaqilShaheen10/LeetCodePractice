@@ -19,7 +19,7 @@ class Solution {
 2. Count Complete Tree Nodes
  
 public class TreeNode {
-      int val;
+      int val; 
       TreeNode left;
       TreeNode right;
       TreeNode() {}
