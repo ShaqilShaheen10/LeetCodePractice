@@ -1,7 +1,7 @@
 1. Intersection of Two Linked Lists
 
 public class ListNode {
-      int val;
+      int val; 
       ListNode next;
       ListNode(int x) {
           val = x; 
