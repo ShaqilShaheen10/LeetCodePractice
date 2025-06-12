@@ -52,7 +52,7 @@ class Solution {
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Binary Tree Inorder Traversal
 
-  public class TreeNode {
+  public class TreeNode { 
       int val;
       TreeNode left;
       TreeNode right;
