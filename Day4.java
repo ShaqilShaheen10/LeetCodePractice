@@ -14,7 +14,7 @@ class Solution {
     }
     public List<List<Integer>> generate(int n){
         List<List<Integer>> a=new ArrayList<>();
-        for(int r=1;r<=n;r++){
+        for(int r=1;r<=n;r++){ 
             a.add(generator(r));
         } 
         return a;
