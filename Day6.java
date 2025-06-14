@@ -29,7 +29,7 @@ class Solution {
 2. Binary Tree PreOrder Traversal
 
   public class TreeNode { 
-      int val; 
+      int val;  
       TreeNode left; 
       TreeNode right;
       TreeNode() {}
