@@ -34,7 +34,7 @@ class Solution {
         ListNode s=head;
         while(f!=null){
             f=f.next;
-            if(f!=null){
+            if(f!=null){ 
                 f=f.next;
                 s=s.next;
             } 
