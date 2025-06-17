@@ -31,7 +31,7 @@ class Solution {
             }
             else if(sq<x){
                 l=m; 
-            }
+            } 
             else{
                 r=m-1;  
             }
