@@ -66,7 +66,7 @@ class Solution {
         int min=0,max=0; 
         for(char c:s.toCharArray()){
             if(c=='('){
-                min++;
+                min++; 
                 max++;
             }
             else if(c==')'){
