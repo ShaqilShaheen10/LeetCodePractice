@@ -53,7 +53,7 @@ class Solution {
         int l=rangeSumBST(root.left,low,high);
         int r=rangeSumBST(root.right,low,high);
         return c+l+r;
-    } 
+    }  
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Leaf-Similar Trees
