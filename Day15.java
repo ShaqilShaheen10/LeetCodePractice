@@ -20,7 +20,7 @@ public class Solution extends GuessGame {
             if(t==0) return m;  
             else if(t==-1) l=m;
             else f=m;
-        }
+        } 
         return 0;   
     }
 }
