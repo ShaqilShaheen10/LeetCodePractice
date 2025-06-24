@@ -77,7 +77,7 @@ class Solution {
                 min--;
                 max++;
             }
-            if(max<0) return false;
+            if(max<0) return false; 
             if(min<0)min=0;
         }
         return min==0;
