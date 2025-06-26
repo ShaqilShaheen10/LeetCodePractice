@@ -56,7 +56,7 @@ public class Solution {
            if(((n>>i)&1)==1){
                r++; 
            }
-       }
+       } 
        return r;
     }
 }
