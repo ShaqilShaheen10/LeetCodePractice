@@ -6,7 +6,7 @@ public class Solution {
         int n=t.length();
         int i=0,j=0; 
         while(i<m && j<n){
-            if(s.charAt(i)==t.charAt(j)){
+            if(s.charAt(i)==t.charAt(j)){ 
                 i++;
             } 
             j++; 
