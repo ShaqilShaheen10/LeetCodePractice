@@ -23,7 +23,7 @@
         for(var x: details){
             int b=Integer.parseInt(x.substring(11,13));
             if(b>60) ++a;
-        }
+        } 
         return a;
     }
 }
