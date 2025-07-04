@@ -8,7 +8,7 @@ class Solution {
      for(int i=1;i<=nums.length;i++){
         if(count[i]==2){ 
             ans.add(i);
-        }
+        } 
      }
      return ans;
     }
