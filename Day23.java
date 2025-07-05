@@ -33,7 +33,7 @@ class Solution {
     }
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. Maximize Happiness of Selected Children
+3. Maximize Happiness of Selected Children 
     class Solution { 
     public long maximumHappinessSum(int[] happiness, int k) {
         Arrays.sort(happiness);
