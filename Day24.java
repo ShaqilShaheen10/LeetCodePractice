@@ -61,7 +61,7 @@
         int remainder=missingSum%n;
         int[] result=new int[n];
         for(int i=0;i<n;i++){
-            result[i]=base+(i<remainder?1:0);
+            result[i]=base+(i<remainder?1:0); 
         }
         return result;
     }
