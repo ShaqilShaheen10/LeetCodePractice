@@ -20,7 +20,7 @@
   class Solution {
     public int countSeniors(String[] details) {
         int a=0;
-        for(var x: details){
+        for(var x: details){ 
             int b=Integer.parseInt(x.substring(11,13));
             if(b>60) ++a;
         } 
