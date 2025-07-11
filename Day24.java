@@ -37,7 +37,7 @@
         while(n>1){
             while(n%factor==0){
                 steps+=factor;
-                n/=factor; 
+                n/=factor;  
             }
             factor++;
         }
