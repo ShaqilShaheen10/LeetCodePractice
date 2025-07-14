@@ -36,7 +36,7 @@
         int factor=2;
         while(n>1){
             while(n%factor==0){
-                steps+=factor;
+                steps+=factor; 
                 n/=factor;  
             }
             factor++;
