@@ -31,7 +31,7 @@
 4. 2(Two) Key Keyboard
 
   public int minSteps(int n) {
-        if(n==1) return 0;
+        if(n==1) return 0; 
         int steps=0;
         int factor=2;
         while(n>1){
