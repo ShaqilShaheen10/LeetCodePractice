@@ -9,7 +9,7 @@ class Solution {
         } 
         for(char c:ransomNote.toCharArray()){
             if(a[c-'a']==0) return false;
-            a[c-'a']--; 
+            a[c-'a']--;  
         }
         return true; 
     }
