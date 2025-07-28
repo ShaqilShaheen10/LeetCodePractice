@@ -35,7 +35,7 @@ class Solution {
         if(k<=0) return 0;
         int l=0,r=0,c=0,p=1;
         int n=nums.length; 
-        while(r<n){
+        while(r<n){ 
             p*=nums[r];
             while(p>=k) p/=nums[l++]; 
             c+=1+(r-l);
