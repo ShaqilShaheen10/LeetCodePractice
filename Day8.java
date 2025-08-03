@@ -30,7 +30,7 @@ class Solution {
                     min+=neededTime[i];
                     neededTime[i]=0;
                 } 
-                else{
+                else{ 
                     min+=neededTime[i+1];
                     neededTime[i+1]=neededTime[i];
                 }
