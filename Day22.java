@@ -45,7 +45,7 @@ class Solution {
     }
 } 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-4. Maximum Nesting Depth of the Parentheses
+4. Maximum Nesting Depth of the Parentheses 
 
 class Solution {
     public int maxDepth(String s) {
