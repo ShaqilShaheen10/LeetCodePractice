@@ -31,7 +31,7 @@ class Solution {
                 }
                 while(L<nums.length-1 && nums[L+1]==target){  
                     L++;
-                }
+                } 
                 break;
             }else if(nums[m]<target){ 
                 l=m+1;
