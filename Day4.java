@@ -8,7 +8,7 @@ class Solution {
         for(int c=1;c<r;c++){
             a=a*(r-c);  
             a=a/c;   
-            ar.add((int)a);
+            ar.add((int)a); 
         } 
         return ar;  
     }
