@@ -34,7 +34,7 @@ class Solution {
                 } 
                 break;
             }else if(nums[m]<target){ 
-                l=m+1;
+                l=m+1; 
             }else{ 
                 r=m-1;
             }
