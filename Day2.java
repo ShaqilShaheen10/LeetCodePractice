@@ -29,7 +29,7 @@ class Solution {
             if(sq==x){
                 return (int)m;
             }
-            else if(sq<x){
+            else if(sq<x){ 
                 l=m; 
             } 
             else{
